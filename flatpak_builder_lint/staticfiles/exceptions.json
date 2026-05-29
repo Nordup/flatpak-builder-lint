@@ -5069,6 +5069,11 @@
             "finish-args-own-name-wildcard-org.kde": "Still uses legacy StatusNotifier implementation"
         }
     },
+    "io.itch.nordup.TheGates": {
+        "stable": {
+            "finish-args-contains-both-x11-and-wayland": "Required to launch godot app with X11 and its child process with Wayland for isolation"
+        }
+    },
     "io.jamulus.Jamulus": {
         "*": {
             "finish-args-contains-both-x11-and-wayland": "Predates the linter rule"
